@@ -1,0 +1,27 @@
+.container{
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    width: 89%;
+
+}
+
+
+.bars{
+    width: 4px;
+    background-color:#00887a;
+    display: inline-block;
+    margin: 0 1px;
+
+}
+
+.footer{
+  padding: 2px;
+  text-align: center;
+  background:#eae7dc;
+  margin-left:10px;
+  color: Black;
+  font-size: 20px;
+
+
+}
