@@ -27,9 +27,9 @@ class SortingVisualizer extends Component
     refreshArray()
     {
         const array = [];
-        for(let i = 0; i <245; i++)
+        for(let i = 0; i <210; i++)
         {
-            array.push(Math.floor(Math.random()*(710 - 10 + 1))+ 10);
+            array.push(Math.floor(Math.random()*(715 - 10 + 1))+ 10);
         }
         array.backgroundColor = '#00887a';
         this.setState({array});
@@ -66,7 +66,7 @@ class SortingVisualizer extends Component
                     firstBar_Style.backgroundColor = color;
                     secondBar_Style.backgroundColor = color;
 
-                }, i* 2);
+                }, i* 3);
 
             } else
             {
@@ -75,7 +75,7 @@ class SortingVisualizer extends Component
                     const [overwrite, barOneIdx, newHeight] = visuals[i];
                     const barOneStyle = arrayBars[barOneIdx].style;
                     barOneStyle.height = `${newHeight}px`;
-                },i* 2);
+                },i* 3);
             }
 
         }
@@ -108,7 +108,7 @@ class SortingVisualizer extends Component
                 {
                     firstBar_Style.backgroundColor = color;
                     secondBar_Style.backgroundColor = color;
-                },i * 10);
+                },i * 3);
             }
             else 
             {
@@ -118,7 +118,7 @@ class SortingVisualizer extends Component
                 setTimeout(() => 
                 {
                     barStyle.height = `${newHeight}px`;
-                },i * 10);  
+                },i * 3);  
             }
         }
     }
@@ -149,7 +149,7 @@ class SortingVisualizer extends Component
                 {
                     firstBar_Style.backgroundColor = color;
                     secondBar_Style.backgroundColor = color;
-                },i * 2);
+                },i * 3);
             }
             else {
                 const [value, barIndex, newHeight] = visuals[i];
@@ -158,7 +158,7 @@ class SortingVisualizer extends Component
                 setTimeout(() => 
                 {
                     barStyle.height = `${newHeight}px`;
-                },i * 2);  
+                },i * 3);  
             }
         }
     }   
@@ -188,7 +188,7 @@ class SortingVisualizer extends Component
                 {
                     firstBar_Style.backgroundColor = color;
                     secondBar_Style.backgroundColor = color;
-                },i * 5);
+                },i * 3);
             }
             else 
             {
@@ -198,7 +198,7 @@ class SortingVisualizer extends Component
                 setTimeout(() => 
                 {
                     barStyle.height = `${newHeight}px`;
-                },i * 5);  
+                },i * 3);  
             }
         }
     }
