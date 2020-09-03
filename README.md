@@ -1,4 +1,4 @@
-* *Sorting Algorithms* * rearrange given arrays or elements within lists in a particular order. The purpose of this project is to show the visualization of these sorting algorithms. The sorting algorithms used in this project are **Merge Sort, Bubble Sort, Insertion Sort, and Selection Sort.
+**Sorting Algorithms** rearrange given arrays or elements within lists in a particular order. The purpose of this project is to show the visualization of these sorting algorithms. The sorting algorithms used in this project are **Merge Sort, Bubble Sort, Insertion Sort, and Selection Sort.
 
 **Merge Sort** is a divide and conquer algorithm that divides the arrays into two halves and then recursively calls itself to split into two more halves until a single element is left. It then merges the sorted halves till all elements are in one array. The time complexity of this algorithm is O(n* Log n) because it takes linear time to merge the two halves. **Bubble Sort**, on the other hand, is one of the simplest algorithms that sorts the array by swapping adjacent elements placed in the wrong order. The time complexity of this algorithm is O(n^2). 
 
